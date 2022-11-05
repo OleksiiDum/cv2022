@@ -36,13 +36,14 @@ html {
 }
 
 .nav-header {
-    display: flex;
+    
+    position: absolute;
+    top: 0;
+    right: 5rem;
+    z-index: 10;
     /* padding-top: 5rem; */
     /* padding-right: 2rem; */
-    background-color: #e9e4f7;
-    height: 10%;
-    align-items: center;
-    justify-content: end;
+   
     
 }
 
@@ -50,7 +51,7 @@ html {
     display: flex;
     position: absolute;
     top: 4rem;
-    right: 10rem;
+    right: 5rem;
     gap: 2rem;
     align-items: center;
     justify-content: center;
@@ -63,7 +64,7 @@ html {
     color: black;
     font-size: 2.4rem;
     font-weight: 500;
-    text-shadow: -5px 2px #21282e57;
+    text-shadow: -5px 2px #3f315a;
 }
 
 /*-------------INTRO------------*/
@@ -73,7 +74,10 @@ html {
 }
 
 .background {
-    background-color: #e9e4f7;
+    background-image: url('images/back_violet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
 }
 
@@ -101,7 +105,7 @@ html {
     top: 5rem;
     left: 5rem;
     z-index: 10;
-    box-shadow: -10px 12px 4px 0 #333;
+    box-shadow: -10px 12px 4px 0 #3f315a;
     background-color: #1e1e20;
     width: 60%;
     height: 70%;
@@ -125,7 +129,7 @@ html {
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     list-style: none;
@@ -139,4 +143,6 @@ html {
 
 .work a {
     text-decoration: none;
+    color: blueviolet;
+    font-size: 3rem;
 }
