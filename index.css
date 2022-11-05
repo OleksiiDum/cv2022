@@ -24,6 +24,7 @@ html {
 
 #mode ul button {
     border: none;
+    background: transparent;
 }
 
 #mode ul button:hover {
@@ -33,6 +34,7 @@ html {
 #mode ul img {
     padding-top: 0;
     width: 1rem;
+    background: transparent;
 }
 
 .nav-header {
@@ -90,16 +92,20 @@ html {
 .me h1 {
     text-align: center;
     font-size: 2rem;
-    line-height: 1.5;
-    padding-right: 5rem; 
+    padding-right: 5rem;
+}
+
+.me ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .sub_window{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
-    padding: 1rem;
+    padding: 2rem;
     color: rgb(227, 227, 245);
     position: absolute;
     top: 5rem;
@@ -109,6 +115,22 @@ html {
     background-color: #1e1e20;
     width: 60%;
     height: 70%;
+}
+
+.skills {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.skills ul {
+    padding-top: 2rem;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
 
 /*-----------REVIEW------------*/
