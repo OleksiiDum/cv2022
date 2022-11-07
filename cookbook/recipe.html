@@ -1,8 +1,23 @@
-{% extends 'recipe/layout.html' %}
-{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="recipe.css" rel="stylesheet" />
+</head>
+<body>
+    <!------------NavBar------------->
+    <nav>
+      <div class="logo">
+        <a href="index.html">Back</a>
+      </div>
+      <div class="links">
+        <a href="#">Breakfast</a><a href="#">Lunch</a><a href="#">Dinner</a><a href="add.html">Add Recipe</a>
+      </div>
+      <div class="burger-menu"></div>
+    </nav>
 
-{% block main %}
-    <!------------Main------------->
+    <!-----------Container---------------->
     <div class="container">
       <div class="recipe-description">
         <img src="{% static 'image/ali-choubin-I0B_QnY2VOQ-unsplash.jpg' %}" alt="dish" />
@@ -41,4 +56,9 @@
       </div>
 
     </div>
-{% endblock %}
+    <footer>
+      <p>Copyright © by Alex 2022</p>
+      <a href="#">Facebook</a><a href="#">Twitter</a><a href="#">e-mail</a>
+    </footer>
+</body>
+</html>
