@@ -73,3 +73,17 @@ section a:hover {
     color: aliceblue;
     text-decoration: none;
 }
+
+/*---------FOOTER--------*/
+
+footer {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background-color: #131314;
+    font-size: 2rem;
+    color: aliceblue;
+}
+

@@ -148,3 +148,28 @@ html {
     text-shadow: -2px 1px #583899;
     text-decoration: underline;
 }
+
+/*---------------FOOTER-------------------*/
+
+footer {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background-color: #44277e;
+    font-size: 2rem;
+}
+
+footer img {
+    width: 32px;
+
+}
+
+footer a {
+    color: #1e1e20;
+}
+
+footer a:hover {
+    color: #20123d;
+}

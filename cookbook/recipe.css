@@ -18,7 +18,7 @@
 
   --themeBorder: #24292e;
 
-  --buttonColor: rgb(39, 99, 86);
+  --buttonColor: #276356;
 }
 
 /*---------NavBar----------*/
@@ -54,11 +54,12 @@ svg {
 }
 
 /*---------Main-Container------------*/
+
 .container {
   display: flex;
+  flex-direction: column;
   padding-top: 6rem;
   max-width: 100vw;
-  max-height: 100vh;
 }
 
 .recipe-description {
@@ -95,6 +96,7 @@ svg {
 footer {
   display: flex;
   height: 3rem;
+  bottom: 0;
   background-color: var(--mainColor);
   align-items: center;
   justify-content: space-around;

@@ -109,7 +109,7 @@ aside ul {
 
 footer {
   display: flex;
-  position: fixed;
+  gap: 2rem;
   height: 3rem;
   background-color: var(--mainColor);
   align-items: center;
