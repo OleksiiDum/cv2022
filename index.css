@@ -113,7 +113,7 @@ html {
     column-count: 3;
 }
 
-/*-----------REVIEW------------*/
+/*----------------REVIEW-----------------*/
 
 .review {
     background-color: #1e1e20;
@@ -172,4 +172,88 @@ footer a {
 
 footer a:hover {
     color: #20123d;
+}
+
+
+/*----------------Media---------------*/
+
+@media (max-width: 600px) {
+    body {
+        height: 100vh
+    }
+
+    .intro {
+        height: 65vh;
+    }
+
+    .review {
+        height: 30vh;
+    }
+
+    .nav-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #link ul {
+        top: 1rem;
+        right: 1rem;
+    }
+    
+    #link ul a {
+        font-size: 1.2rem;
+        text-shadow: -3px 1px #50318f;
+    }
+    
+    #link ul a:hover {
+        text-shadow: -3px 1px #d6cfe4;
+    }
+
+    .sub_window {
+        display: block;
+        width: 80%;
+        height: 45%;
+        margin: 0 auto;
+        margin-right: 2rem;
+        font-size: 75%;
+        flex-grow: 1;
+    }
+
+    .me img {
+        width: 5rem;
+    }
+
+    .review {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .review h1 {
+        font-size: 1.4rem;
+    }
+
+    .works-review ul {
+        padding-top: 1rem;
+        gap: 0.6rem;
+    }
+
+    .work a {
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 1rem;
+        
+    }
+
+    footer {
+        gap: 2rem;
+        height: 5vh;
+        font-size: 0.6rem;
+    }
+    
+    footer img {
+        width: 1rem;
+    }
+    
 }
