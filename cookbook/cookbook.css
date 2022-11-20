@@ -154,3 +154,12 @@ footer a, footer p {
     padding-bottom: 0;
     background-color: blue;
 }
+
+
+/*---------------Media-1200-----------------*/
+
+/*---------------Media-600------------------*/
+
+aside ul {
+  grid-template-columns: 1fr 1fr;
+}

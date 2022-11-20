@@ -169,3 +169,22 @@ footer {
     align-items: center;
     justify-content: space-around;
   }
+
+
+/*--------------Media-600-------------*/
+
+.links {
+  gap: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1.4rem;
+}
+
+svg {
+  width: 2rem;
+  margin: 1rem;
+}
+
+nav {
+  height: 4rem;
+}
